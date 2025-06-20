@@ -10,5 +10,5 @@ BEGIN
 	 --- Update the incremental column in the table
 UPDATE water_mark
 SET last_load = @last_load
-COMMIT TRANSACTION
+COMMIT TRANSACTION;
 END;
