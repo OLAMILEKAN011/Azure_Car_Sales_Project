@@ -7,11 +7,14 @@ Welcome to the end-to-end Azure Data Engineering Project repository! This projec
 Project Requirements
 Building the Azure Data Lake (Data Engineering)
 Objective
-Develop a modern Azure data lake using Microsoft azure, enabling analytical reporting and informed decision-making.   @@@@
-
+Develop a modern Azure data lake using Microsoft Azure, enabling analytical reporting and informed decision-making.
 Specifications
-Data Sources: Import data from two source systems (ERP & CRM) provided as CSV files.
-Data Quality: Cleanse and resolve data quality issues before analysis.
+Data Sources: Import data from a source system in a CSV file from a git repo.
+Data Ingestion: Data factory was used to build ETL pipelines for data movement to the bronze layer
+Data Quality: Cleanse and resolve data quality issues in the silver layer of the medallion architecture in databricks.
+
+@@@@
+
 Integration: Combine both sources into a simple user-friendly data model for analytical queries.
 Scope: Focus on the latest dataset only; historicization of data is not required.
 Documentation: Provide clear data model documentation to support both business stakeholders and analytics teams.
