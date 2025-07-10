@@ -13,7 +13,7 @@ Data Sources: Import data from a source system in a CSV file from a git repo.
 Data Ingestion: Data factory was used to build ETL pipelines for data movement to the bronze layer
 Data Quality: Cleanse and resolve data quality issues in the silver layer of the medallion architecture in databricks.
 
-@@@@@
+@@@@@@
 
 Integration: Combine both sources into a simple user-friendly data model for analytical queries.
 Scope: Focus on the latest dataset only; historicization of data is not required.
